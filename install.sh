@@ -2,7 +2,7 @@ USERNAME="edenatholberton"
 REPONAME="C31-sandbox-setup-script"
 USEREMAIL="15682@holbertonstudents.com"
 NAME="edenatholberton"
-REPOS=("git-intro" "holbertonschool-shell" "holbertonschool-github-flow")
+REPOS=("holbertonschool-shell" "holbertonschool-github-flow" "holbertonschool-low_level_programming")
 
 echo "hello getting bashrc";
 if [[ -f ~/.bashrc ]]; then
