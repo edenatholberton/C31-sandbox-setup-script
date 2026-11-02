@@ -1,0 +1,6 @@
+alias cm="chmod u+x"
+alias ga="git add"
+alias gc="git commit -m"
+alias gp="git push"
+alias gs="git status"
+alias gccw="gcc -Wall -Werror -Wextra -pedantic -std=gnu89"
