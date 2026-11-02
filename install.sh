@@ -4,13 +4,13 @@ USEREMAIL="15682@holbertonstudents.com"
 NAME="edenatholberton"
 REPOS=("git-intro" "holbertonschool-shell" "holbertonschool-github-flow")
 
-echo "hello geting bashrc";
+echo "hello getting bashrc";
 if [[ -f ~/.bashrc ]]; then
   mv ~/.bashrc ~/.bashrc.bak;
 fi
 wget -qO ~/.bashrc "https://raw.githubusercontent.com/${USERNAME}/${REPONAME}/refs/heads/main/.bashrc" || mv ~/.bashrc.bak ~/.bashrc
 
-echo "hello geting bash_aliases";
+echo "hello getting bash_aliases";
 if [[ -f ~/.bash_aliases ]]; then
   mv ~/.bash_aliases ~/.bash_aliases.bak;
 fi
